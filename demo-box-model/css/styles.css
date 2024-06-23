@@ -1,0 +1,50 @@
+section {
+    background-color: gainsboro;
+}
+
+.margin {
+    /* 
+    mt20
+    mr40
+    mb20
+    ml40
+     */
+    /* m20-40-20-40 */
+    margin: 20px 40px 20px 40px;
+}
+
+.border {
+    /* Adds pixels to the element. Part of the box model.*/
+    /* bdw5 */
+    /* border-width: 5px; */
+    /* bdsdt */
+    /* border-style: dotted; */
+    /* bdc */
+    /* border-color: cyan; */
+
+    /* bd5-dt-#00FFFF */
+    border: 5px dotted #00FFFF;
+}
+
+.padding {
+    /* padding adds space between the content and the border*/
+    /* pt24 */
+    /* padding-top: 24px; */
+    /* pr48 */
+    /* padding-right: 48px; */
+    /* pb24 */
+    /* padding-bottom: 24px; */
+    /* pl48 */
+    /* padding-left: 48px; */
+    padding: 24px 48px;
+}
+
+.width {
+    /* w680 */
+    width: 680px;
+    /* p48 */
+    padding: 48px;
+    /* bd-3-s-black */
+    border: 3px solid black;
+
+}

@@ -1,0 +1,17 @@
+p {
+    color: red;
+}
+
+h1 {
+    /* c#e34234 */
+    color: #e34234;
+    /* bgc#dedede */
+    background-color: #dedede;
+}
+/* Difference bewteen 'main > section' and 'main section'  */
+main > section {
+    border: 3px solid darkgoldenrod;
+    padding: 12px 20px 30px 40px;
+    margin: 12px 20px 30px 40px;
+}
+
