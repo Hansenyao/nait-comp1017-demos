@@ -1,0 +1,113 @@
+body {
+    font-size: 100%;
+    font-family: "Lato", sans-serif;
+    color: #374151;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+
+header {
+    padding: 44px 192px 37px 192px;
+    background-color: #93C5FD;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 53px;
+    font-weight: normal;
+    color: #F9FAFB;
+    text-align: right;
+}
+
+header>p{
+    font-size: 24px;
+    font-weight: normal;
+    color: #F9FAFB;
+    text-align: right;
+}
+
+h2 {
+    margin-bottom: 11px;
+}
+
+section>p {
+    margin-bottom: 20px;
+}
+
+form>div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+}
+input {
+    line-height: 48px;
+}
+
+input, textarea {
+    border: 1px solid  #D1D5DB;
+    width: 625px;
+    padding-left: 38px;
+}
+
+#email {
+    background: url(../img/email.svg) no-repeat;
+    /* BIG IMPORTANT THING */
+    background-position: left 7px top 12px;
+}
+
+#name {
+    background: url(../img/name.svg) no-repeat;
+    /* BIG IMPORTANT THING */
+    background-position: left 7px top 12px;
+}
+
+#phone {
+    background: url(../img/phone.svg) no-repeat;
+    /* BIG IMPORTANT THING */
+    background-position: left 7px top 12px;
+}
+
+textarea {
+    min-height: 200px;
+    resize: vertical;
+    background: url(../img/message.svg) no-repeat;
+    /* BIG IMPORTANT THING */
+    background-position: left 7px top 12px;
+    padding-top: 12px;
+}
+
+input.btn {
+    background-color: #60A5FA;
+    color: #FFF;
+    border-radius: 5px;
+    width: 209px;
+    padding-left: 0px;
+}
+
+input.btn:hover {
+    background-color: #93C5FD;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px #E5E7E8;
+}
+
+aside {
+    margin-left: 44px;
+}
+
+address {
+    font-style: normal;
+}
