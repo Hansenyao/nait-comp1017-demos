@@ -19,7 +19,7 @@ header div {
     padding: 90px 51px 194px 50px;
 }
 
-h1 h2 {
+h1, h2 {
     font-family: "Oswald", sans-serif;
     font-weight: bold;
 }
